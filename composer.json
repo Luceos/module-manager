@@ -31,7 +31,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "League\\Skeleton\\Test\\": "tests"
+            "LaraLeague\\ModuleManager\\Test\\": "tests"
         }
     },
     "scripts": {
