@@ -81,10 +81,10 @@ class PackageServiceProvider extends ServiceProvider
     protected function registerConfigurations()
     {
         $this->mergeConfigFrom(
-            $this->packagePath('assets/configurations/config.php'), 'package'
+            $this->packagePath('assets/configurations/module-manager.php'), 'module-manager'
         );
         $this->publishes([
-            $this->packagePath('assets/configurations/config.php') => config_path('package.php'),
+            $this->packagePath('assets/configurations/module-manager.php') => config_path('module-manager.php'),
         ], 'config');
     }
 
